@@ -28,12 +28,11 @@ theme:
     text: Roboto
     code: Roboto Mono
 
+  favicon: img/cwc-logo-white.svg
+  logo: img/cwc-logo-white.svg
+
 plugins:
   - search
-
-favicon: assets/favicon.png
-icon:
-  logo: logo
 
 markdown_extensions:
   - abbr
@@ -50,8 +49,16 @@ nav:
   - Handbook:
       - Foreword: foreword.md
       - Introduction: introduction.md
+      - Basics:
+          - Orientation: basics/orientation.md
+          - Glossary: basics/glossary.md
+          - Mantras: basics/mantras.md
       - Getting Started:
-          - What Language Should I Learn?: getting-started/what-language.md
+          - Which Language?: getting-started/what-language.md
+          - Why Python?: getting-started/why-python.md
+          - Learning Python: getting-started/learning-python.md
+          - Web Frameworks: getting-started/web-frameworks.md
+          - Learning Django: getting-started/learning-django.md
   - About: about.md
   - Donate: donate.md
 

@@ -62,7 +62,6 @@ Here are some habits which are good to get into
 # People skills
 
 - code review, pair programming
-  learn a web framework such as Django
   code workflow
 
 ## APIs
@@ -99,3 +98,5 @@ Interop Summit https://www.youtube.com/channel/UCoGOZfeTmZJkHn_4MjA5FFA/videos
 
 - Josh Case (Code Blue)
 - Ian McNicoll
+- Mark Bailey
+- Louise Wilson & Kevin Monk - inspiration to get writing
