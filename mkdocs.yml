@@ -1,0 +1,52 @@
+site_name: Clinicians Who Code - The Opinionated Handbook
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tracking
+
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+plugins:
+  - search
+
+font:
+  text: Source Serif Pro
+  code: Roboto Mono
+
+favicon: assets/favicon.png
+icon:
+  logo: logo
+
+markdown_extensions:
+  - abbr
+
+nav:
+  - Home: home.md
+  - Foreword: foreword.md
+  - Introduction: introduction.md
+  - Getting Started:
+      - What Language Should I Learn?: what-language.md
+  - About: about.md
+  - Donate: donate.md
+
+copyright: Copyright &copy; 2021 Dr Marcus Baw

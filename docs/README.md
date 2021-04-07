@@ -2,28 +2,7 @@
 
 An _opinionated_ guide for clinicians who want to build tech safely, openly, and quickly.
 
-# Foreword
-
-# Introduction
-
-## Why so opinionated?
-
-- we need to collectivise our efforts behind a single language so that we focus on developing the ecosystem of tools and libraries of code that we need. If we're spread across many languages then we simply won't hit a 'critical mass'
-
-- ATLS model - ONE GOOD WAY
-
-- Train the Trainers
-
-## Getting Started
-
-### What language should I learn?
-
-- Python
-
-### Web Framework
-
-- Django
-- Flask
+MarkDown
 
 ### Front end
 
@@ -45,6 +24,17 @@ An _opinionated_ guide for clinicians who want to build tech safely, openly, and
 # Clinical Software Patterns
 
 design patterns for healthcare
+checklists
+
+## Avoid Unnecessary Mappings
+
+A mapping is where you are representing a concept with something which is _not_ that concept. For example, if you wanted to represent the sex of a patient and you chose '1' to represent 'male', and '2' to represent 'female'. I've seen this done, it's not uncommon in software to (for some reason) represent things numerically when they are prefectly clear as strings.
+
+In my view this is an unnecessary mapping, and the only thing it can possibly server to do is confuse and introduce bugs, which will be that little bit harder to identify, because when scanning logs you are relying on being able to remember which number maps to 'male' and which to 'female'.
+
+Just use the string representation of whatever it is. The clearer you can be in your programming, the better for you and for anyone else using your code. It also has benefits for patients who are treated using your code!
+
+## Avoid Unnecessary Abbreviations and Acronyms
 
 ## APIs
 
@@ -53,6 +43,19 @@ design patterns for healthcare
 Rhidian Bramley's blog https://clinicalwebportal.home.blog/2019/07/23/clinical-calculators/
 
 ## Integration
+
+## Workflow
+
+Here are some habits which are good to get into
+
+### Git Workflow Checklist
+
+- `git fetch` so you know you are definitely on the most up to date code
+- Check which branch you are on - are you starting from the right place?
+- Think about the work you're going to do - does it need a [feature branch](link)
+- Write the new code
+- Write tests for your code
+- Make a commit, with an informative commit message
 
 # working in open source
 
