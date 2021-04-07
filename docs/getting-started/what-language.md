@@ -1,6 +1,11 @@
-# What Language Should I Learn?
+# Q: What Language Should I Learn?
 
-One of the first problems that presents itself when learning to code is the question of which language to learn. I'm going to end that 'options paralysis' for you right now by advising, no - asking - you to learn Python. Why 'asking'? - because I believe that as Clinicians Who Code we have to band together and collectivise around a language that we can all use, and more importantly, we need to build tools that solve problems and then **share** those tools widely and openly in standard ways like using the [PyPi](https://pypi.org/), the Python Package Index.
+!!! success ""
+     **A: PYTHON!**
+
+One of the first problems that you hit when learning to code is the question of which language to learn.
+
+I'm going to end that 'options paralysis' for you right now by advising, no - _asking_ - you to learn Python. Why 'asking'? - because I believe that as Clinicians Who Code we have to band together and collectivise around a language that we can all use, and more importantly, we need to build tools that solve problems and then **share** those tools widely and openly in standard ways like using the [PyPi](https://pypi.org/), the Python Package Index.
 
 If that's enough for you, then you can skip right on to learning how to Python!
 
@@ -26,7 +31,7 @@ One person said "Learn Java because it's 'Enterprisey' and healthcare applicatio
 
 Some languages need a lot of 'boilerplate' (apparently meaningless extra text) in order to even run a basic program. Java is a good example of this, you need a bunch of really quite weird stuff to be there before you can even print "Hello, world":
 
-```java
+``` java
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, world!");
@@ -36,7 +41,7 @@ public class Main {
 
 The equivalent in Python:
 
-```python
+``` python
 print("Hello, world)
 ```
 
@@ -52,19 +57,25 @@ Although I am confident that any clincian of any kind, from any background, can 
 
 ### Python has a huge ecosystem of mature, reliable tools
 
-Python has a great Web Framework called Django, which is used at full production scale for a number of major websites including [Instagram](https://stackshare.io/instagram/instagram), Pinterest and Udemy. The traffic going through these sites is probably a million times the entire NHS data throughput. Django will cope fine
+Python has a great Web Framework called Django, which is used at full production scale for a number of major websites including [Instagram](https://stackshare.io/instagram/instagram), [Pinterest](https://stackshare.io/pinterest/pinterest) and [Udemy](https://stackshare.io/udemy/udemy). The traffic going through these sites is probably a million times the entire NHS data throughput. Django will cope fine
+
+### Python has an established worldwide community
 
 ### Miscellaneous other reasons...
 
 - Want to use a C program in Python? - no problem, it has several easy ways to wrap a C library in a Python wrapper.
 
+- Want to use Python for Internet Of Things development? -
+
 ## Things I don't love so much about Python
+
+(But still learn Python)
 
 ### It can seem irritatingly pedantic
 
 Python likes things to be done the right way, and the design of the language is intended to give you 'one good way' of doing things (just like the ATLS course!). Occasionally this can make it seem like Python is being annoyingly pedantic, as in this example:
 
-```python
+``` python hl_lines="6"
 ╰─$ python
 Python 3.8.0 (default, Aug 23 2020, 17:45:09)
 [GCC 9.3.0] on linux
@@ -76,11 +87,11 @@ Use exit() or Ctrl-D (i.e. EOF) to exit
 
 I typed `exit` - Python clearly understood what I intended to do, because it gave me advice on **how** to successfully exit. But it wants me to do it the right way, so it's going to deliberately **not** exit and wait patiently for me to do it _properly_.
 
-### The syntax isn't as beautiful as my dear Ruby
+### Python syntax isn't as beautiful as my dear Ruby
 
 This is a minor complaint, since Ruby is fairly close in style to Python. But in Python, things like method chaining look ugly:
 
-```python
+``` python
 len("My_Text".upper().split('_')[1].encode())
 ```
 
@@ -88,11 +99,13 @@ Notice all the empty parentheses `()`? And the fact that sometimes you use dot n
 
 Same thing in Ruby:
 
-```ruby
+``` ruby
 "My_Text".upcase.split('_')[1].encode.length
 ```
 
-Just cleaner and neater. But despite this, I've had to get over myself and stick to Python for any projects that other people might need to get involved in. So should you.
+Just cleaner and neater.
+
+But despite this, I've had to get over myself, suck it up, and stick to Python for any projects that other people might need to get involved in. So should you.
 
 ### Web Framework
 
