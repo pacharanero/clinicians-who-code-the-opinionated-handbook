@@ -37,30 +37,31 @@ plugins:
 markdown_extensions:
   - abbr
   - admonition
-  - pymdownx.keys
   - pymdownx.highlight
-  - pymdownx.superfences
   - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.superfences
   - toc:
       permalink: true
 
-nav:
-  - Home: home.md
-  - Handbook:
-      - Foreword: foreword.md
-      - Introduction: introduction.md
-      - Basics:
-          - Orientation: basics/orientation.md
-          - Glossary: basics/glossary.md
-          - Mantras: basics/mantras.md
-      - Getting Started:
-          - Which Language?: getting-started/what-language.md
-          - Why Python?: getting-started/why-python.md
-          - Learning Python: getting-started/learning-python.md
-          - Web Frameworks: getting-started/web-frameworks.md
-          - Learning Django: getting-started/learning-django.md
-  - About: about.md
-  - Donate: donate.md
+# nav:
+#   - Home: home.md
+#   - Handbook:
+#       - Foreword: foreword.md
+#       - Introduction: introduction.md
+#       - Basics:
+#           - Orientation: basics/orientation.md
+#           - Glossary: basics/glossary.md
+#           - Mantras: basics/mantras.md
+#       - Getting Started:
+#           - Which Language?: getting-started/what-language.md
+#           - Why Python?: getting-started/why-python.md
+#           - Learning Python: getting-started/learning-python.md
+#           - Web Frameworks: getting-started/web-frameworks.md
+#           - Learning Django: getting-started/learning-django.md
+#   - About: about.md
+#   - Donate: donate.md
 
 copyright: Copyright &copy; 2021 Dr Marcus Baw
 repo_url: https://github.com/pacharanero/clinicians-who-code-the-opinionated-handbook
