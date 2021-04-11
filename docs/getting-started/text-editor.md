@@ -18,3 +18,5 @@ Git
 Github
 LiveShare
 
+
+## Learn `nano` for when there is no GUI
