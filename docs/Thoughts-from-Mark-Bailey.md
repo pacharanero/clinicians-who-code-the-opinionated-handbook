@@ -6,4 +6,4 @@ Software that does not need admin rights to install:
 
 * eg Anaconda
 
-Do you want chapter numbers, so people know what order to read things in and where they are when reading
+Do you want chapter numbers, so people know what order to read things in and where they are when reading?
