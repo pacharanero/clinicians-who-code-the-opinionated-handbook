@@ -17,3 +17,5 @@
 *[Server]: A computer which 'serves' some kind of content to a 'client'. See 'webserver' or 'database server'
 
 *[Terminal]: 
+
+RFC

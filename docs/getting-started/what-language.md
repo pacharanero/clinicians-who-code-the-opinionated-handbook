@@ -72,7 +72,7 @@ We can also share libraries of code, all in Python, that help each other to do t
 
      # Print a report!
      >>> print(f"Kidney Report: \nStatus: {sct['text']} \nStore as SNOMED-CT: {sct['sct_id']}\neGFR value: {egfr['value']} {egfr['units']}")
-     Kidney Report: 
+     Kidney Report:
      Status: Chronic kidney disease stage 1 (disorder) 
      Store as SNOMED-CT: 431855005
      eGFR value: 97 ml/min/1.73m2
@@ -82,11 +82,13 @@ If dozens or hundreds of Clinicians Who Code built just **one** library each, th
 
 That's what I mean by building a **critical mass** behind Python as a clinical programming language.
 
-## You don't need to optimise for scale or processing speed too early
+## You don't need to optimise for scale or speed at the start
 
-Programmer time is by far the most expensive commodity in the technology world. CPU cycles are cheap. The most common reason for an application idea to fail is not that it was too slow to scale. It's actually that it never got built in the first place. That's where most ideas die. In development.
+Programmer brains by far the most expensive commodity in the technology world. Doubly so for the Clinician Who Codes, where you are bringing domain expertise to every line of code. CPU cycles are **cheap** and are always getting cheaper.
 
-> Ideas are worthless; execution on ideas is everything.
+The most common reason for an idea to fail is not that it was too slow to scale. It's actually that it never got built in the first place. That's where most ideas die. In development.
+
+> Ideas are worthless; **execution** on ideas is everything.
 
 So, choose a language that lets you build things quickly, right **now**. Efficient syntax, easy to learn, developer friendly, and has rich libraries. A big developer community so you can ask questions on [StackOverflow](https://en.wikipedia.org/wiki/Stack_Overflow) and get sensible answers. A mature language so you know it will be around for a while. Good, enterprise-grade web frameworks. Y'know. Python, basically.
 
