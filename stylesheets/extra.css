@@ -1,0 +1,13 @@
+:root {
+  --md-primary-fg-color: #6b705c;
+}
+
+/* widens the page view */
+.md-grid {
+  max-width: 70rem;
+}
+
+/* enlarges the text in the admonitions */
+.md-typeset .admonition {
+  font-size: 0.75rem;
+}
