@@ -2,8 +2,7 @@
 
 ## Why so opinionated?
 
-
-The web is full of all the information you could possibly want to read about everything I'm talking about in this book. BUt as a begineer there's too much. You can't get a frame of reference to help you decide which way to go. 'Analysis Paralysis' stops you makeing progress. So the whole idea here is I am going to make opinionated recommendations for what to learn and what to spend time on.
+The web is full of all the information you could possibly want to read about everything I'm talking about in this book. But as a beginner there's too much. You can't get a frame of reference to help you decide which way to go. 'Analysis Paralysis' stops you making progress. So the whole idea here is I am going to make opinionated recommendations for what to learn and what to spend time on.
 
 The purpose of this book is to give you **ONE GOOD WAY** of getting clinical software written. It's not the 'best' way - just like in clinical practice, often **there IS no single 'best' way**. There are *thousands* of ways to do any given task in tech, and you will of course be forgiven if you decide that the way for you is different to my recommendation. But I'm hoping to defeat the options paralysis, and get you started and productive sooner.
 
@@ -29,7 +28,6 @@ I want to get on to the health relevant coding as quickly as possible without ge
 
 ## Finding support
 
-FCI
 BCS
 discourse.digitalhealth.net clinicians who code
 Stack Overflow

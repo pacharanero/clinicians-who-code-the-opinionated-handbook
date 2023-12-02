@@ -5,9 +5,8 @@
 *[Command Line]: 
 *[Compiled]: Code which has been processed from human-readable code into computer-readable instructions.
 *[Compiler]: A program which processes human-readable code into computer-readable instructions.
-
-*[Faculty of Clinical Informatics]: 
-
+*[Django]: an opionated dynamic web server written in python. Often used in commercial products
+*[Flask]: a slimmed down version of Django
 *[Informatics]: 
 
 *[Jupyter Notebook]: 

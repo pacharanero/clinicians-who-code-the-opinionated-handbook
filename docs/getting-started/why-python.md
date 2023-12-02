@@ -22,7 +22,7 @@ Python is also used in a lot of 'cutting edge' things such as machine learning, 
 
 Data science also uses a lot of Python although that community is also strongly invested in the R language, which is specifically aimed at statistical analysis and data visualisation.
 
-Medicine is (primarily) a scientific discipline. Yeah, it's an art too, but for the computing side of things, science is the way to go. Let's give scientific tools to the humans who practice the art of medicine. I love the phrase *'Machine Assisted Human'*. It's something I came up with when trying to describe what we were doing with the UI of a new GP system. We're not trying to *replace* the human, we're trying to give the human practitioner 'super-powers'. That's the future of medicine.
+Medicine is (primarily) a scientific discipline. Yes, it's an art too, but for the computing side of things, science is the way to go. Let's give scientific tools to the humans who practice the art of medicine. I love the phrase *'Machine Assisted Human'*. It's something I came up with when trying to describe what we were doing with the UI of a new GP system. We're not trying to *replace* the human, we're trying to give the human practitioner 'super-powers'. That's the future of medicine.
 
 ## One language, Critical mass
 
@@ -31,6 +31,14 @@ So, to make progress faster, we need to group together and 'centralise' our effo
 Although I am confident that any clinician of any kind, from any background, can learn to code, the fact remains that at present there aren't *all* that many of us Clinicians Who Code yet. One day, all clinicians will be able to code. It probably isn't that far away - 10-20 years? So let's start building now the tools that those clinicians will need.
 
 We need to collectivise our efforts behind a single language so that we focus on developing the ecosystem of tools and libraries of code that are needed. If we're spread across many languages then we simply won't hit a 'critical mass', or at least it could take longer to hit it.
+
+## Safety (by Mark Bailey)
+
+Have you ever thought what language pilots speak to each other and air traffic control over the radio? Do flight related people just speak the language of the air space they are flying in? Actually no. And it would not make sense to do this either. I will explain.
+
+My father is a retired aeronautic engineer, and so I have been around and in airplanes most of my childhood. There are many aspects of flying airplanes that closely relate to medicine. If you do something silly whilst flying you can cause the injury or death of many people. The same is true of medicine and more so with digital health techologies. If you put an 'or' instead of an 'and' in your 'if' statement, you can lead to unwanted amounts of medicines or other treatments, which can affect many many people treated by the same system.
+
+So back to languages used in flying and communication over the airwaves. The 'universal' language of flying is 'English'. This allows better communication and hence safer flying. The same can be said for the 'universal' programming language for health tech. Yes we could chose any language, but we should really just choose one, so that we can better communicate with each other and create better and safer digital health systems.
 
 ## Python's ecosystem
 
