@@ -1,5 +1,7 @@
 # Learning Python
 
+<mark>Look out the the Clinicians who code course coming out mid-2024</mark>
+
 There are a plethora of ways to learn Python, both online and offline. Here are a few that I would recommend, but what's available is changing all the time - let me know if you hit problems with something I'm recommending here, or if you know of better resources.
 
 !!! note "Improve this book!"

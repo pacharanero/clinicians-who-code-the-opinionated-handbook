@@ -4,13 +4,17 @@ Another source of needless options paralysis, is "Which text editor shall I use 
 
 There are many available (hundreds, at least), and they cater for all sorts of needs 
 
+# What is a text editor
+
+This can be anything as simple as Notepad on your computer to an all bells and whistles code editor. I would not recomment Notepad though for editing code. There are several purpose built programs for exiting code and helping with the common functionality needed for writing and managing code.
+
 ## Use VSCode
 
 Microsoft VSCode is a really nice, stable and feature-packed editor which has come from 'nowhere' to being one of the most commonly used text editors,in just a couple of years. It is simple enough to be 'simple' for the people that like simple. But it can be extended using extenstions to have lots of helpful features, which make it more like an 'Integrated Development Environment'. It has lots of extensions which make it easy to handle Git and GitHub repositories, many different coding practices and styles, and even things like Docker containers.
 
 It's free and open source. I strongly recommend it. In the end you may settle on something different, but VSCode will get you through anything in this book.
 
-Download here <https://code.visualstudio.com/download>
+Download [here](https://code.visualstudio.com/download)
 
 ### Suggested VSCode plugins
 
@@ -25,6 +29,7 @@ You don't need to install **all** of these at the start, perhaps install the fir
 * Markdown All In One
 * Markdown Preview GitHub Styling
 * YAML
+#TODO #9 could mention a linter as well
 
 You can experiment with many different visual themes for the overall VSCode UI and the syntax highlight colours used. I use Solarized Dark pretty much everywhere I can. Search the Extensions for `theme`.
 
