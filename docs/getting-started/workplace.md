@@ -1,7 +1,7 @@
 # Where and how to work
 
-postiure
-sytanding desks
+posture
+standing desks
 changing posture throughout the day
 external monitors and keyboards on laptops
 

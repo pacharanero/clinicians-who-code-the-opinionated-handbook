@@ -1,8 +1,8 @@
-# Foreword
+# Foreword - by Marcus Baw
 
 ## Why is this book needed?
-
-This book is the book I wish I'd had available to me back in about 2011 when I started getting back interested in code and clinical informatics.
+ 
+This book is the book I wish I'd had available to me back in about 2011 when I started getting interested in code and clinical informatics.
 
 I'd been a 'computery nerd type' at high school and sixth-form college, but I didn't touch computers much from 1995 to about 2002. I got a laptop in 2002 but I only used it for email and web and to write revision notes for the various medical exams I was doing at the time.
 

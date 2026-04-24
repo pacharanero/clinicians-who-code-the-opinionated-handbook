@@ -40,7 +40,7 @@ If we are designing our clinical digital tools right, then actually we should be
      {'value': 97, 'units': 'ml/min/1.73m2'}
      ```
 
-     This is an over-simplifed example, but it is here just to explain that we can make our programs in such a way that it doesn't matter what language we wrote them in. We can this and other methods like REST APIs to wrap our code so that it can be called from programs written in any language.
+     This is an over-simplifed example, but it is here just to explain that we can make our programs in such a way that it doesn't matter what language we wrote them in. We can use this and other methods like REST APIs to wrap our code so that it can be called from programs written in any language.
 
 ## Why choosing a single language across a community *does* matter
 

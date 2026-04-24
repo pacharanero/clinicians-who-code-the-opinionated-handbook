@@ -2,7 +2,10 @@
 
 An _opinionated_ guide for clinicians who want to build tech safely, openly, and quickly.
 
-MarkDown
+###
+#TODO #10 link to mkdocs site
+
+### MarkDown
 
 ### Front end
 
@@ -11,6 +14,7 @@ MarkDown
 ### Version Control
 
 - Git, GitHub, Git Flow
+#TODO #3
 - https://plethorachutney.github.io/git-workshop-presentation/
 - semantic versioning
 
