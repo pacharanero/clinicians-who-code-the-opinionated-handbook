@@ -6,15 +6,21 @@ Sometimes whole days of poor productivity result from just being unable to get e
 
 You can't insulate yourself from all distractions, but you can do some things to try to reduce them.
 
-* Find a place to code with fewer distractions around. It needn't be silent. But if you can see a load of jobs to do, or are being called by name all the time, you'll struggle to find focus.
+## Ideas of finding focus
 
-* Make yourself comfortable. Aim for a good posture, yes of course, but mostly aim to be comfortable. I sometimes code laid out on the sofa.
+* Find a place to code with fewer distractions around. It needn't be silent. But if you can see a load of jobs to do, or are being called by name all the time, you'll struggle to find focus. Falling into focus is a bit like falling asleep, you are never really quite sure when *exactly* the point happens when you are there.
+
+* Make yourself comfortable. Aim for a good posture, yes of course, but mostly aim to be comfortable. I sometimes code laid out on the sofa. The absolute opposite of what you're supposed to be doing posture-wise, but at least it's comfortable. I don't do that all day though, most days I'd usually switch periodically between standing desk, seated desk and sofa.
 
 * Headphones can help. A developer friend of mine once said that he wears headphones 100% of the time at work - *even if he's not actually listening to music!* - he felt it definitely stops people from interrupting your focus unless they really needed to. A decent pair of headphones will isolate you from outside noise, and also give you immense listening pleasure!
 
 * I've found that listening to instrumental music can let you fall into focus easier. Classical music or any other instrumental music works, although I've particularly found that music with a steady, semi-hypnotic beat works really well. I've become quite a fan of the Carbon Based Lifeforms and also a genre called Psybient/Psychill. There are some good Concentration/Coding playlists on Spotify and YouTube. 'Lo-fi beats' also seem to help with focus. (I'm way too old to be making any kind of music recommendations to anyone, but if I was going to, this is what I'd say) Music is very individual though. Listen to what works for you. Instrumental Metal? Bardcore?
 
 * If you have a really excitingly productive day, it's often followed by a day which is disappointingly scatterbrained and aimless. And vice versa. So don't worry about these 'off' days whatsoever, the next day will likely be back to normal. Roll with the off days. If your brain won't write code on those days, then let it do whatever you **can** get it to do. Maybe rest? Come back to the code another day.
+
+* Close as many apps as you can get away with. Close messaging apps in particular. Don't try to code with Slack, WhatsApp Web, Signal, or any other IM app open. A single message ping can break your focus. 
+
+## Pomodoros
 
 !!! tip "Tip - Abilene, TX and the ZOUD"
     Know where Abilene, TX is and [know why you do not want to go there](https://www.youtube.com/watch?v=uFQ-ukyvAMk). Recognise when other people are going there. Help them avoid it, if you can. Know where the [Zone Of Uncomfortable Debate](https://www.bartoninsights.com/the-zoud/) is, and go there **as often as is necessary**.

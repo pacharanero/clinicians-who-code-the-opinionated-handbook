@@ -1,3 +1,5 @@
+# TODO List
+
 what is the cloud
 using the cloud
 static sites
@@ -8,17 +10,17 @@ types of languages
 compilation
 workarounds for IT blocking - codeanywhere, github codespaces
 
-# community
+## community
 
 teach others
 informal 'training posts'
 
-# getting work
+## getting work
 
 apply for grants
 build what you care about
 
-# talking about your work
+## talking about your work
 
 Show Your Work
 screenshotting
@@ -30,7 +32,7 @@ image editing
 excalidraw
 reveal.js
 
-# royal colleges 3.0 - best practice as code
+## royal colleges 3.0 - best practice as code
 
 Browser console
 debuggering
