@@ -2,7 +2,7 @@
 
 ## Commands and code snippets
 
-Commands that you run by typing into the Command Prompt (Windows), Terminal (MacOS/Linux) or Python console are in monospaced 'typerwriter' font like this
+Commands that you run by typing into the Command Prompt (Windows), Terminal (MacOS/Linux) or Python console are in monospaced 'typewriter' font like this
 
 `some code`
 
@@ -33,4 +33,4 @@ For more information on super-user, see [Managing Servers]()
 ## Tips
 
 !!! tip "Marcus's Random Tips"
-    Scattered through the book, formatted in these 'tip' boxes, I've included some tips and advice which I've either learned from opther places during my time in tech, or which I've concluded myself. I've tried to make them interesting and actionable. (I'm sure you'll tell me if they aren't)
+    Scattered through the book, formatted in these 'tip' boxes, I've included some tips and advice which I've either learned from other places during my time in tech, or which I've concluded myself. I've tried to make them interesting and actionable. (I'm sure you'll tell me if they aren't)

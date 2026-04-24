@@ -12,5 +12,5 @@ If you have enjoyed it and would like to see it improved, extended and updated, 
 If you are a total beginner in tech, then please feel especially welcome. Everyone can learn more about tech than they already know. Every day you can move a little further along the scale. Beginners may wish to start with content under the Basics tab, to get some definitions and general concepts under their fingers first.
 
 ## A little tech experience
-If you already know what clients and are what servers do, and have a clue about cloud, then you could possibly skip Basics and go staright to Getting Started.
+If you already know what clients are and what servers do, and have a clue about cloud, then you could possibly skip Basics and go straight to Getting Started.
  

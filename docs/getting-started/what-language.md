@@ -18,7 +18,7 @@ When I started wanting to code, I asked some friends what would be a good langua
 
 One person said "Learn Java because it's 'Enterprise-y' and healthcare applications sound like they are Enterprise-y". Another advised me to start with the basics and learn C or C++ so that I could write super-fast programs. I actually bought books on both of these and really didn't hit it off with either. I then tried Python and subsequently Ruby, and I immediately found them more friendly and straightforward. I've also played around with newer, languages like Elixir and Golang, as well as PHP, Javascript, and Rust. But if you want my advice, *Learn Python*.
 
-This is a roundabout way of saying that none of the languages you could choose are 'right' or 'wrong'. Many of the available alternative languages are absolutely **excellent** languages. That's in fact what makes it so hard to decide. And you can easily plough a lot of your time into the learning curves of a variety of different languages, tyrying to decide what is right for you, when you could be making useful things for healthcare if you just *Learn Python*.
+This is a roundabout way of saying that none of the languages you could choose are 'right' or 'wrong'. Many of the available alternative languages are absolutely **excellent** languages. That's in fact what makes it so hard to decide. And you can easily plough a lot of your time into the learning curves of a variety of different languages, trying to decide what is right for you, when you could be making useful things for healthcare if you just *Learn Python*.
 
 I also believe there is a critical mass effect thing here as well. By concentrating the resources of the Clinicians Who Code community around Python, we can make more progress than if we spread ourselves across numerous languages, tools and frameworks.
 
@@ -40,7 +40,7 @@ If we are designing our clinical digital tools right, then actually we should be
      {'value': 97, 'units': 'ml/min/1.73m2'}
      ```
 
-     This is an over-simplifed example, but it is here just to explain that we can make our programs in such a way that it doesn't matter what language we wrote them in. We can this and other methods like REST APIs to wrap our code so that it can be called from programs written in any language.
+     This is an over-simplified example, but it is here just to explain that we can make our programs in such a way that it doesn't matter what language we wrote them in. We can use this and other methods like REST APIs to wrap our code so that it can be called from programs written in any language.
 
 ## Why choosing a single language across a community *does* matter
 
@@ -84,7 +84,7 @@ That's what I mean by building a **critical mass** behind Python as a clinical p
 
 ## You don't need to optimise for scale or speed at the start
 
-Programmer brains by far the most expensive commodity in the technology world. Doubly so for the Clinician Who Codes, where you are bringing domain expertise to every line of code. CPU cycles are **cheap** and are always getting cheaper.
+Programmer brains are by far the most expensive commodity in the technology world. Doubly so for the Clinician Who Codes, where you are bringing domain expertise to every line of code. CPU cycles are **cheap** and are always getting cheaper.
 
 The most common reason for an idea to fail is not that it was too slow to scale. It's actually that it never got built in the first place. That's where most ideas die. In development.
 
@@ -92,7 +92,7 @@ The most common reason for an idea to fail is not that it was too slow to scale.
 
 So, choose a language that lets you build things quickly, right **now**. Efficient syntax, easy to learn, developer friendly, and has rich libraries. A big developer community so you can ask questions on [StackOverflow](https://en.wikipedia.org/wiki/Stack_Overflow) and get sensible answers. A mature language so you know it will be around for a while. Good, enterprise-grade web frameworks. Y'know. Python, basically.
 
-Another reason not to worry preematurely about scale is that the scale of the NHS is *tiny* in comparison to the 'real tech world' of WhatsApp and Facebook. Even if you had every NHS staff member simultaneously logged into your app, this is about 1.5 million people. WhatsApp can get [2 million concurrent connections out of **one server**](https://blog.whatsapp.com/1-million-is-so-2011/?lang=en), but by the time you need to optimise your app for this kind of performance you'll have a large team to help you!
+Another reason not to worry prematurely about scale is that the scale of the NHS is *tiny* in comparison to the 'real tech world' of WhatsApp and Facebook. Even if you had every NHS staff member simultaneously logged into your app, this is about 1.5 million people. WhatsApp can get [2 million concurrent connections out of **one server**](https://blog.whatsapp.com/1-million-is-so-2011/?lang=en), but by the time you need to optimise your app for this kind of performance you'll have a large team to help you!
 
 Scaling too early introduces a lot of complexity to your setup and deployment. Build so that future scaling is possible (with cloud deployments this is very easy anyway) but don't build using a fashionable new language for speed and performance if it is going to make initial development much slower.
 

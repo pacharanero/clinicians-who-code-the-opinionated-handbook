@@ -1,16 +1,16 @@
 # Obtaining Focus
 
-One of ths things I have found most difficult about learning to code and writing code is Obtaining The Focus. Because of the amount of intangible bits of information you need to hold in your brain all the time when you ar coding on anything even moderately challenging, it can take a good 20-30 minutes to really get 'into' the coding. If you're interrupted - by, say, having to answer the door for a delivery - you lose that focus, and you have to spend time getting back into 'the zone'.
+One of the things I have found most difficult about learning to code and writing code is Obtaining The Focus. Because of the amount of intangible bits of information you need to hold in your brain all the time when you are coding on anything even moderately challenging, it can take a good 20-30 minutes to really get 'into' the coding. If you're interrupted - by, say, having to answer the door for a delivery - you lose that focus, and you have to spend time getting back into 'the zone'.
 
 Sometimes whole days of poor productivity result from just being unable to get enough focus to get the job done. Occasionally you have to write off a whole day because of repeated distractions. The distractions don't always come from outside or from other people.
 
 You can't insulate yourself from all distractions, but you can do some things to try to reduce them.
 
-## Ideas of finding focus
+## Ideas for finding focus
 
 * Find a place to code with fewer distractions around. It needn't be silent. But if you can see a load of jobs to do, or are being called by name all the time, you'll struggle to find focus. Falling into focus is a bit like falling asleep, you are never really quite sure when *exactly* the point happens when you are there.
 
-* Make yourself comfortable. Aim for a good posture, yes of course, but mostly aim to be comfortable. I sometimes code laid out on the sofa. The absolute opposite of what you're supposed to be doing posture-wise, but at least it's comfortable. I don't do that all day though, most days I'd usually switch periodically between standing desk, seated desk and sofa.
+* Make yourself comfortable. Aim for a good posture, yes of course, but mostly aim to be comfortable. I sometimes code laid out on the sofa. It's the absolute *opposite* of what you're 'supposed' to be doing posture-wise, but at least it's comfortable. I don't do that all day though, most days I'd usually switch periodically between standing desk, seated desk and sofa.
 
 * Headphones can help. A developer friend of mine once said that he wears headphones 100% of the time at work - *even if he's not actually listening to music!* - he felt it definitely stops people from interrupting your focus unless they really needed to. A decent pair of headphones will isolate you from outside noise, and also give you immense listening pleasure!
 
@@ -18,7 +18,7 @@ You can't insulate yourself from all distractions, but you can do some things to
 
 * If you have a really excitingly productive day, it's often followed by a day which is disappointingly scatterbrained and aimless. And vice versa. So don't worry about these 'off' days whatsoever, the next day will likely be back to normal. Roll with the off days. If your brain won't write code on those days, then let it do whatever you **can** get it to do. Maybe rest? Come back to the code another day.
 
-* Close as many apps as you can get away with. Close messaging apps in particular. Don't try to code with Slack, WhatsApp Web, Signal, or any other IM app open. A single message ping can break your focus. 
+* Close as many apps as you can get away with. Close messaging apps in particular. Don't try to code with Slack, WhatsApp Web, Signal, or any other IM app open. A single message ping can break your focus.
 
 ## Pomodoros
 
