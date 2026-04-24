@@ -1,7 +1,7 @@
 site_name: Clinicians Who Code - The Opinionated Handbook
 
 theme:
-  name: material
+  variant: classic
   features:
     - navigation.instant
     - navigation.tabs
