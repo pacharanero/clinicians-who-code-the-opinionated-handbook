@@ -1,7 +1,7 @@
 site_name: Clinicians Who Code - The Opinionated Handbook
 
 theme:
-  variant: classic
+  variant: modern
   features:
     - navigation.instant
     - navigation.tabs
@@ -49,7 +49,6 @@ nav:
   - Home: index.md
   - Foreword: foreword.md
   - Introduction: introduction.md
-  - Thoughts from Mark Bailey: Thoughts-from-Mark-Bailey.md
   - Basics:
       - Conventions used in this book: basics/conventions-in-this-book.md
       - Mantras: basics/mantras.md
@@ -58,12 +57,16 @@ nav:
       - Obtaining Focus: basics/focus.md
       - Usability and UX: basics/usability.md
       - Sources of Help and Support: basics/support.md
+      - Community: basics/community.md
+      - Career and Context: basics/career-and-context.md
   - Getting Started:
       - What Language Should I Learn?: getting-started/what-language.md
       - Why Python?: getting-started/why-python.md
       - Learning Python: getting-started/learning-python.md
+      - Rust: getting-started/rust.md
       - Web Frameworks: getting-started/web-frameworks.md
       - Learning Django: getting-started/learning-django.md
+      - FastAPI: getting-started/fastapi.md
       - Which Text Editor?: getting-started/text-editor.md
       - What is a Shell?: getting-started/shell.md
       - Where and How to Work: getting-started/workplace.md
@@ -73,9 +76,18 @@ nav:
       - Documentation: intermediate/documentation.md
       - Managing Servers: intermediate/managing-servers.md
       - Productivity Tools: intermediate/accessories.md
+      - Scripts To Rule Them All: intermediate/scripts-to-rule-them-all.md
+      - Distribution and Packaging: intermediate/distribution-and-packaging.md
+      - Keeping Notes: intermediate/keeping-notes.md
   - Advanced:
       - Legals: advanced/legals.md
       - NHS IT: advanced/nhs-it.md
+      - Medical Device Regulation: advanced/medical-device-regulation.md
+      - SAFETY.md: advanced/safety-md.md
+      - Clinical Safety: advanced/clinical-safety.md
+      - AI-Assisted Development: advanced/ai-assisted-development.md
+      - FHIR and Interoperability: advanced/fhir-and-interoperability.md
+      - Security: advanced/security.md
   - Contribute: contribute.md
   - About: about.md
 

@@ -1,62 +1,80 @@
 # Which text editor?
 
-Another source of needless options paralysis, is "Which text editor shall I use for my code?".
+Another source of needless options paralysis. Let's end it now.
 
-There are many available (hundreds, at least), and they cater for all sorts of needs.
+## Use VS Code
 
-## Use VSCode
+Microsoft's Visual Studio Code (VS Code) has won. It's free, open source, fast, stable, well-maintained, and has by far the largest extension ecosystem. Most tutorials assume you're using it. Most of the AI coding tools either are VS Code or are forks of VS Code.
 
-Microsoft VSCode is a really nice, stable and feature-packed editor which has come from 'nowhere' to being one of the most commonly used text editors, in just a couple of years. It is simple enough to be 'simple' for the people that like simple. But it can be extended using extensions to have lots of helpful features, which make it more like an 'Integrated Development Environment'. It has lots of extensions which make it easy to handle Git and GitHub repositories, many different coding practices and styles, and even things like Docker containers.
+For a clinician-developer just starting out, the answer is VS Code. Don't agonise.
 
-It's free and open source. I strongly recommend it. In the end you may settle on something different, but VSCode will get you through anything in this book.
+Download: <https://code.visualstudio.com/download>
 
-Download here <https://code.visualstudio.com/download>
+### Suggested VS Code extensions
 
-### Suggested VSCode plugins
+Don't install all of these on day one. Install the first few and add the others as you start using the relevant tools.
 
-You don't need to install **all** of these at the start, perhaps install the first few and then install the others as and when you start to be using that particular tool or technology.
+- **Python** (Microsoft) — essential for Python work.
+- **Pylance** — fast type checking for Python.
+- **Ruff** — Python linting and formatting.
+- **GitLens** — supercharges the Git integration.
+- **GitHub Pull Requests** — review and respond to PRs without leaving the editor.
+- **Markdown All In One** — for writing notes and docs.
+- **Markdown Preview GitHub Styling** — see your Markdown the way GitHub will render it.
+- **YAML** — for config files, CI workflows, Docker Compose.
+- **Docker** — for working with containers.
+- **rust-analyzer** — when you start writing Rust.
+- **Live Share** — for remote pair programming.
 
-* Python
-* Git 
-* Github
-* Prettier
-* LiveShare
-* Docker
-* Markdown All In One
-* Markdown Preview GitHub Styling
-* YAML
+For visual themes, I use Solarized Dark almost everywhere. Pick something easy on the eyes; you're going to spend a lot of hours looking at it.
 
-You can experiment with many different visual themes for the overall VSCode UI and the syntax highlight colours used. I use Solarized Dark pretty much everywhere I can. Search the Extensions for `theme`.
+## AI-assisted editors
+
+The biggest change in the last two years is the rise of AI-assisted editors. These either are VS Code with AI features bolted on, or are forks of VS Code with deeper AI integration:
+
+- **GitHub Copilot.** The original AI pair programmer, integrated into VS Code as an extension. Rapidly improved from the autocomplete it started as. A safe default if you want AI assistance without leaving the standard VS Code.
+- **Cursor.** A fork of VS Code with much deeper AI integration. Multi-file changes, agent mode, codebase-wide context. Many serious developers I know have switched.
+- **Windsurf** (formerly Codeium). Another AI-first fork in the same space as Cursor. Different design philosophy, similar capabilities.
+- **Claude Code.** Not an editor as such, but a terminal-based AI coding assistant from Anthropic. Runs alongside whatever editor you use. Increasingly my own default for substantial tasks because it can run commands, read files, and iterate without me having to copy-paste.
+
+You don't have to commit to one. Many clinician-developers I know use VS Code with Copilot for most editing, and reach for Claude Code or Cursor for larger tasks. The right combination depends on how you like to work.
+
+For more on using these tools well, see [AI-Assisted Development](../advanced/ai-assisted-development.md).
 
 ## Learn `nano` for when there is no GUI
 
-Sometimes you will need to edit a configuration file on a remote server using a text-only login such as [SSH](). You will not be able to use a sophisticated text editor because there is only a text interface. There is almost always a text-based editor available, except in the most minimal of installations. I tend to use the `nano` text editor (even though many people are derisory about it). It works for me. It doesn't really matter, you are not going to be using it for writing acres of code, just small edits to config files.
+Sometimes you'll need to edit a configuration file on a remote server through SSH. There's no GUI, just a terminal. You can't open VS Code.
 
-To edit a file
+Learn `nano`. It's available on essentially every Linux server. It's not the most powerful terminal editor (vim and emacs both have more capability), but it's by far the easiest to use, and for the rare edits you'll do on remote servers, ease beats power.
 
-``` bash
+To edit a file:
+
+```bash
 nano <FILENAME>
 ```
 
-* If the file doesn't exist it will be created
+- If the file doesn't exist, it'll be created.
+- Navigate with the arrow keys. Normal typing works as you'd expect.
+- ++ctrl+k++ deletes a whole line.
+- ++ctrl+o++ saves.
+- ++ctrl+x++ exits.
+- If you can't save, the file is probably owned by root. Run with `sudo nano <FILENAME>`.
 
-* Navigate up and down using the arrow keys. Normal typing works as you would expect, and you can use ++delete++ to delete, again no surprises here.
+That's enough nano to get by.
 
-* To delete a whole line, you can use ++ctrl+k++, this is a handy trick
+## What about vim, emacs, neovim?
 
-* To save, press ++ctrl+o++
+If you already use one of these, keep using it. The ecosystem (LSP, AI integrations, plugin managers) for vim and neovim is genuinely good, and many serious developers swear by them.
 
-* To exit, press ++ctrl+x++
+If you don't already use one, don't start now. The learning curve is steep, the productivity gain (relative to a well-configured VS Code) is small, and the time is better spent learning to code or building something. Maybe in a few years.
 
-* If you can't make it save, this could be because the file is protected and you need `sudo` permissions. Running `nano` like this will usually fix it.
+## Don't hop between editors
 
-``` bash
-sudo nano <FILENAME>
-```
+A common trap when starting out is to spend a week on VS Code, get frustrated, try Cursor, then Sublime Text, then PyCharm, then back to VS Code. Each switch costs days.
 
-see chapters on server management for more information on Linux and `sudo`
+Pick one (VS Code), commit to it for at least three months, and learn its keyboard shortcuts and configuration. You will be more productive than someone who has lightly tried five editors.
 
-!!! tip "Tip - You don't need to invent anything - transplant ideas from elsewhere... in both directions!"
-    Look at how the 'real' industry (ie outside of healthcare) solves generic problems, and bring those solutions into healthcare technology. That's all I'm doing most of the time. Examples are things like open 'RFC' standards and version control, automation, and open source.
-    
-    However, also note the places where healthcare culture has got it **right**, and the tech industry should be learning from **us**! An example of this is the 'precautionary principle' - _proving_ something is safe before using it widely. This is how we do Evidence Based Medicine, and sadly is not widely practiced in the majority of the tech industry, where 'move fast and break stuff' is a sad adage (attr: Facebook)
+!!! tip "Tip: don't invent anything; transplant ideas from elsewhere"
+    Look at how the 'real' industry (outside of healthcare) solves generic problems, and bring those solutions into healthcare technology. That's most of what I'm doing most of the time. Examples: open RFC standards, version control, automation, open source.
+
+    Note also where healthcare culture has got it right, and the tech industry should be learning from us. The 'precautionary principle' (proving something is safe before using it widely) is how we do Evidence Based Medicine, and is sadly not widely practised in much of the tech industry, where 'move fast and break stuff' was an actual maxim.
