@@ -45,25 +45,41 @@ markdown_extensions:
   - toc:
       permalink: true
 
-# nav:
-#   - Home: home.md
-#   - Handbook:
-#       - Foreword: foreword.md
-#       - Introduction: introduction.md
-#       - Basics:
-#           - Orientation: basics/orientation.md
-#           - Glossary: basics/glossary.md
-#           - Mantras: basics/mantras.md
-#       - Getting Started:
-#           - Which Language?: getting-started/what-language.md
-#           - Why Python?: getting-started/why-python.md
-#           - Learning Python: getting-started/learning-python.md
-#           - Web Frameworks: getting-started/web-frameworks.md
-#           - Learning Django: getting-started/learning-django.md
-#   - About: about.md
-#   - Donate: donate.md
+nav:
+  - Home: index.md
+  - Foreword: foreword.md
+  - Introduction: introduction.md
+  - Thoughts from Mark Bailey: Thoughts-from-Mark-Bailey.md
+  - Basics:
+      - Conventions used in this book: basics/conventions-in-this-book.md
+      - Mantras: basics/mantras.md
+      - Glossary: basics/glossary.md
+      - What is Open Source?: basics/open-source.md
+      - Obtaining Focus: basics/focus.md
+      - Usability and UX: basics/usability.md
+      - Sources of Help and Support: basics/support.md
+  - Getting Started:
+      - What Language Should I Learn?: getting-started/what-language.md
+      - Why Python?: getting-started/why-python.md
+      - Learning Python: getting-started/learning-python.md
+      - Web Frameworks: getting-started/web-frameworks.md
+      - Learning Django: getting-started/learning-django.md
+      - Which Text Editor?: getting-started/text-editor.md
+      - What is a Shell?: getting-started/shell.md
+      - Where and How to Work: getting-started/workplace.md
+  - Intermediate:
+      - Git: intermediate/git.md
+      - REST and APIs: intermediate/rest-and-apis.md
+      - Documentation: intermediate/documentation.md
+      - Managing Servers: intermediate/managing-servers.md
+      - Productivity Tools: intermediate/accessories.md
+  - Advanced:
+      - Legals: advanced/legals.md
+      - NHS IT: advanced/nhs-it.md
+  - Contribute: contribute.md
+  - About: about.md
 
-copyright: Copyright &copy; 2021 Dr Marcus Baw
+copyright: Copyright &copy; 2021-2026 Dr Marcus Baw
 repo_url: https://github.com/pacharanero/clinicians-who-code-the-opinionated-handbook
 
 extra_css:
